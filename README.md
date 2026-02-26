@@ -6,6 +6,6 @@ Release တွင်ထည့်ပေးထားတဲ့ .zip ကိုအရ
 .ass ဖွင့်လိုက်ပါ ပြီးရင် ထိပ်မှာ Comment လုပ်ထားတဲ့စာကြောင်းတွေ့ရလိမ့်မယ် အဲဒါတွေက Templater တွေပါ 
 Copy ယူပြီး ကိုယ်သုံးချင်တဲ့ .ass ထဲကအပေါ်ထဲကို ကူးထည့်လိုက်ပါ ပြီးရင် Apply Karaoke Template ကိုနိုပ်ပါ။
 
-##### Effect နေရာ template line နဲ့ပတ်သတ်တာက ရိုးရိုး line text အတွက်ရည်ရွယ်ပါတယ်။
+###### Effect နေရာ template line နဲ့ပတ်သတ်တာက ရိုးရိုး line text အတွက်ရည်ရွယ်ပါတယ်။
 
-##### Effect နေရာ template syl ဆိုရင် Karaoke ထည့်တဲ့စာသားတွေရည်ရွယ်ပါတယ်။
+###### Effect နေရာ template syl ဆိုရင် karaoke ထည့်တဲ့စာသားတွေရည်ရွယ်ပါတယ်။

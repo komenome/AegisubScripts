@@ -1,0 +1,26 @@
+name: Package Folder for Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Zip Main Folder (including all sub-folders)
+        run: |
+          # 'Project_Files' နေရာမှာ မင်းရဲ့ Main Folder နာမည် ထည့်ပါ
+          # -r က recursive (ထဲထဲဝင်ဝင် အကုန်ယူမယ်) လို့ ပြောတာပါ
+          zip -r MyArchive.zip Project_Files/
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: MyArchive.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

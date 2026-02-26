@@ -14,9 +14,7 @@ jobs:
 
       - name: Zip Main Folder (including all sub-folders)
         run: |
-          # 'Project_Files' နေရာမှာ မင်းရဲ့ Main Folder နာမည် ထည့်ပါ
-          # -r က recursive (ထဲထဲဝင်ဝင် အကုန်ယူမယ်) လို့ ပြောတာပါ
-          zip -r MyArchive.zip Project_Files/
+          zip -r ass_effect.zip ass/
 
       - name: Create Release
         uses: softprops/action-gh-release@v1
